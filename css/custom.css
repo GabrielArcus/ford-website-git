@@ -1,0 +1,524 @@
+/*// Body CSS STARTS ...........................*/
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #DDD;
+}
+/*// Body CSS ENDS ...........................*/
+
+/*// Navigation CSS STARTS .......................*/
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.navbar {
+  border-bottom: 5px solid #DDD;
+  background-color: #2E2C20;
+}
+.navlist {
+  margin: 0;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:  #DDD;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color:  #DDD;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+#youtube-nav-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#twitter-nav-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#facebook-nav-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#instagram-nav-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#homeNavLink {
+  text-decoration: none;
+  color: #DDD;
+}
+#aboutNavLink {
+  text-decoration: none;
+  color: #DDD;
+}
+#trailerNavLink {
+  text-decoration: none;
+  color: #DDD;
+}
+#galleryNavLink {
+  text-decoration: none;
+  color: #DDD;
+}
+#ticketsNavLink {
+  text-decoration: none;
+  color: #DDD;
+}
+/*// Navigation CSS ENDS .......................*/
+
+/*// Hero div CSS STARTS ......................*/
+.hero {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin-top: 90px;
+  /*background-color:  #E70288;*/
+  /*background-image: radial-gradient( circle 934px at 6% 39.5%,  rgba(255,35,90,1) 0.2%, rgba(255,35,144,1) 54.8%, rgba(250,99,160,1) 93.4% );*/
+}
+.hero-img {
+  height: 100%;
+  width: 100%;
+  margin-top: -20px;
+  border-bottom: 5px solid #000;
+}
+.release-date {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  width: 180px;
+  background-color: rgb(101, 168, 197, 0.5);
+}
+.release-date li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.reldate {
+  font-family: 'Anton', sans-serif;
+  /*padding-bottom: 4px;*/
+  color: #000;
+  font-size: 18px;
+}
+.rel-first-line {
+  font-size: 90px;
+  font-weight: bold;
+  margin-bottom: -28px;
+  margin-left: -8px;
+}
+.rel-second-line {
+  margin-bottom: -19px;
+  font-size: 38px;
+}
+.rel-third-line {
+  font-size: 54px;
+}
+.th {
+  font-size: 35px;
+  padding-left: 2px;
+}
+.get-link {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 37px;
+  color:  #FFF;
+  padding: 20px 0px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.9;
+}
+.get-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.get-link-ltr:hover::before {
+  width: 100%;
+}
+.get-link:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.get-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color:  #FFF;
+}
+#heroTicketsLink {
+  text-decoration: none;
+  color: #FFF;
+}
+/*// Div two CSS STARTS .......................*/
+.div-two {
+  height: 520px;
+  width: 100%;
+  border-bottom: 3px solid #DDD;
+  position: relative;
+  background-image: url('https://www.foxmovies.com/s3/ford-v-ferrari/ticket-bg-desktop-v3.jpg');
+  background-repeat: no-repeat;
+
+}
+.div-three {
+  height: 100%;
+  width: 100%;
+  background-color: #2E2C20;
+  border-bottom: 3px solid #DDD;
+}
+.div-four {
+  height: 100%;
+  width: 100%;
+  background: #cb2d3e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 90px;
+}
+/*// Social media links CSS STARTS ...............*/
+.social-media {
+  display: inline-block;
+  font-size: 20px;
+  font-family:fontawesome;
+}
+
+/* Icons */
+
+.social-media li {
+  color:#fff;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+}
+
+.social-media :hover {
+  opacity: 1;
+  color: #CE412D;
+}
+.instagram {
+  margin-left: 47%;
+}
+  /*// Social media links CSS ENDS ...............*/
+
+  /*// Img slider CSS STARTS .....................*/
+.gallery-container {
+  width: 100%;
+  margin: 0;
+}
+  /*// Img slider CSS ENDS ......................*/
+
+/*// Footer CSS STARTS ..........................*/
+.footer {
+  background-color: #2E2C20;
+  padding-left: 10%;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.footer-links {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:  #DDD;
+  position: relative;
+  opacity: 0.75;
+}
+.footer-links li {
+  padding: 6px 0px;
+}
+.social-media-footer {
+  position: absolute;
+  top: 0;
+  right: 16%;
+  margin-top: 90px;
+}
+.social-media-foot {
+  display: inline-block;
+  font-size: 20px;
+  font-family:fontawesome;
+}
+.footer-blurb {
+  color: #DDD;
+  width: 30%;
+  font-size: 12px;
+  position: absolute;
+  top: 70px;
+  right: 40%;
+}
+.footer-icon {
+  padding-left: 15px;
+  font-size: 30px;
+}
+.footer-icon:hover {
+  color: #CE412D;
+}
+#youtube-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#twitter-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#facebook-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#instagram-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#home-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#about-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#gallery-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#trailer-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#tickets-footer-link {
+  text-decoration: none;
+  color: #DDD;
+}
+#home-footer-link:hover, 
+  #about-footer-link:hover, 
+    #gallery-footer-link:hover, 
+      #trailer-footer-link:hover, 
+        #tickets-footer-link:hover {
+          color: #FFF;
+          opacity: 2;
+}
+/*// Footer CSS ENDS ..........................*/
+
+/*// Div two CSS STARTS ........................*/
+.div-two h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 120px;
+  color: #000;
+  margin-left: 12.5%;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+.div-two p {
+  margin-left: 12.5%;
+  margin-top: 20px;
+  font-size: 22px;
+  width: 55%;
+  position: absolute;
+  top: 0.1;
+  left: 10;
+  font-weight: bold;
+}
+/*// Div two CSS ENDS ............................*/
+
+/*// Div three CSS STARTS .......................*/
+.div-three {
+  padding-bottom: 90px;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 120px;
+  color: #DDD;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+/*// Div three CSS ENDS ............................*/
+
+/*// Trailer CSS STARTS ......................*/
+.div-four {
+  border-bottom: 5px solid #000;
+}
+.div-four iframe {
+  width: 75%;
+  height: 613px;
+  margin-left: 12.5%;
+  border: 0; 
+}
+.div-four h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 120px;
+  margin-left: 12.5%;
+  padding-top: 60px;
+  margin-top: -1px;
+  padding-bottom: 30px;
+  color: #000;
+}
+/*// Trailer CSS ENDS ......................*/
+
+/*// get tickets CSS STARTS ...................*/
+.tickets {
+  background-color: #F0F0F0;
+  height: 400px;
+  width: 100%;
+  /*border-bottom: 3px solid #000;*/
+}  
+.tickets h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 120px;
+  margin-left: 12.5%;
+  padding-top: 60px;
+  margin-top: -1px;
+  padding-bottom: 30px;
+  color: #000;
+}
+.parent-form {
+  overflow: auto;
+  margin-left: 13%;
+}
+.parent-form .parent-1 {
+  width: 15%;
+  height: 40px;
+  display: inline-block;
+  float: left;
+  margin-right: 3%;
+}
+.parent-form .parent-2 {
+  width: 33%;
+  height: 90px;
+  display: inline-block;
+  float: left;
+}
+.parent-form input[type=submit] {
+  width: 19%;
+  background-color: #2E2C20;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 34px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.parent-form input[type=text], select {
+  width: 90%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.parent-form input[type=submit]:hover {
+  background-color: #CE412D;
+  cursor: pointer;
+}
+#aboutLink {
+  text-decoration: none;
+}
+#trailerLink {
+  text-decoration: none;
+}
+#galleryLink {
+  text-decoration: none;
+}
+#ticketsLink {
+  text-decoration: none;
+}
+
+/*// get tickets CSS ENDS ...................*/
+
+
+/*// Media query STARTS .....................*/
+
+/* Tablet Styles */
+/*@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {*/
+/* STYLES GO HERE */
+
+@media (min-width : 768px) and (max-width : 1024px) {
+
+.release-date {
+  display: none;
+}
+.footer-blurb {
+  font-size: 10px;
+  position: absolute;
+  top: 70px;
+  right: 37%;
+}
+.footer-icon {
+  font-size: 25px;
+}
+.instagram {
+  margin-left: 19%;
+}
+.div-two h2 {
+  font-size: 90px;
+}
+.container h2 {
+  font-size: 90px;
+}
+.div-two p {
+  font-size: 19px;
+  width: 55%;
+  position: absolute;
+  top: 0.1;
+  left: 10;
+  font-weight: bold;
+}
+.div-two {
+  background-image: none;
+  background-color:  #EBF0EA;
+}
+.div-four h2 {
+  font-size: 90px;
+}
+.tickets h2 {
+  font-size: 90px;
+}
+.div-four iframe {
+  width: 75%;
+  height: 450px;
+  margin-left: 12.5%; 
+}
+
+/*.........................................*/
+}
+ /*// Media query ENDS ...................*/
